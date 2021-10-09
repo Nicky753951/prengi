@@ -1,0 +1,18 @@
+.btn {
+	margin-top: 39px;
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #ffffff;
+	width: 241px;
+	height: 60px;
+	background-color: $main-color;
+	border:none;
+	border-radius: 5px;
+	cursor: pointer;
+	&:nth-child(2) {
+		margin: 30px auto 0 auto;
+		display: block;
+	}
+}

@@ -1,0 +1,21 @@
+.navigation {
+	display: flex;
+	margin: 0;
+	&__link {
+		padding-right: 45px;
+		font-size: 13px;
+		line-height: 26px;
+		font-weight: 700;
+		text-transform: uppercase;
+		list-style-type: none;
+		&:last-child{
+			padding-right: 0;
+		}
+		a {
+			color: #fff;
+			&:hover {
+				text-decoration: none;
+			}
+		}
+	}
+}

@@ -1,0 +1,50 @@
+.contacts {
+	min-height: 86px;
+	padding: 19px 0 16px 0;
+
+	&__wrapper {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		flex-wrap:wrap;
+	}
+
+	&__block {
+		display:flex;
+		align-items: start;
+		img {
+			margin-right: 10px;
+		}
+	}
+
+	&__country {
+		margin: 0;
+		font-size: 14px;
+		line-height: 18px;
+		font-weight: 700;
+		color: #242424;
+	}
+
+	&__tel, &__email, &__addr {
+		font-size: 12px;
+		font-weight: 300;
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		color: black;
+		&:hover {
+			color:$main-color;
+		}
+	}
+}
+
+
+@media (max-width: 1200px){
+	.contacts {
+		&__tel, &__email, &__addr {
+		font-size: 11px;
+		}	
+	}
+}	
